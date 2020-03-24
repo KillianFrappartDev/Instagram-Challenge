@@ -1,0 +1,16 @@
+/* GENERAL */
+
+
+/* NAVIGATION */
+.navbar-brand img{
+    width: 50%;
+}
+
+.nav-icons a {
+    margin: 0 0.6rem;
+    color: black!important;
+}
+
+/* .navbar div {
+    display: inline-block;
+} */
