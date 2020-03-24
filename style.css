@@ -1,16 +1,42 @@
 /* GENERAL */
+.bg-grey {
+    background-color: rgba(var(--b3f,250,250,250),1);
+
+}
 
 
 /* NAVIGATION */
-.navbar-brand img{
+.navbar {
+    border-bottom: solid 1px lightgray;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navbar .container {
+}
+
+.brand-logo{
     width: 50%;
 }
 
-.nav-icons a {
-    margin: 0 0.6rem;
-    color: black!important;
+.form-inline input {
+    height: 1.8rem;
+    width: 5rem;
+    background-color: rgba(var(--b3f,250,250,250),1);
 }
 
-/* .navbar div {
-    display: inline-block;
-} */
+.profile-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+} 
+
+.nav-icons a {
+    margin: 0 0.6rem;
+
+}
+
+.i-dark {
+    color: black!important;
+}
