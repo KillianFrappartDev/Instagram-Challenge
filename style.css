@@ -4,6 +4,10 @@
 
 }
 
+.scrollable {
+    overflow-y: scroll;
+}
+
 
 /* NAVIGATION */
 .navbar {
@@ -39,4 +43,200 @@
 
 .i-dark {
     color: black!important;
+}
+
+
+/* INTERFACE */
+.user-interface {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 45%;
+    height: 100vh;
+}
+
+/* User Info */
+.user-info {
+    position: relative;
+    width: 20rem;
+    height: 6rem;
+    margin-bottom: 0.8rem;
+}
+
+.user-icon {
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+} 
+
+.user-name {
+    position: absolute;
+    top: 2.4rem;
+    left: 6.5rem;
+}
+
+.user-name h4 {
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+}
+
+.user-name p {
+    font-size: 0.8rem;
+    color: darkgray;
+}
+
+/* Stories */
+.user-box {
+    width: 291px;
+    height: 221px;
+    background-color: white;
+    position: relative;
+    border: solid 1px lightgray;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border-radius: 3px;
+}
+
+.stories-header * {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.stories-header h4 {
+    color: darkgray;
+}
+
+.stories-header a {
+    position: absolute;
+    right: 16px;
+    top: 3px;
+    color: black;
+}
+
+.stories-list{
+    height: 180px;
+    background-color: white;
+}
+
+.story-info {
+    position: relative;
+    width: 260px;
+    height: 3rem;
+    margin-bottom: 0.8rem;
+
+}
+
+.story-icon {
+    position: absolute;
+    top: 0.5rem;
+    left: 1.5rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    border: solid 2px ;
+    border-color: #ee094e;
+    padding: 2px;
+}
+
+.story-name {
+    position: absolute;
+    top: 0.6rem;
+    left: 5.5rem;
+}
+
+.story-name h4 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.story-name p {
+    font-size: 0.6rem;
+    color: darkgray;
+}
+
+/* Recommendations */
+.stories-header * {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.stories-header h4 {
+    color: darkgray;
+}
+
+.stories-header a {
+    position: absolute;
+    right: 16px;
+    top: 3px;
+    color: black;
+}
+
+.stories-list{
+    height: 180px;
+    background-color: white;
+}
+
+.story-info {
+    position: relative;
+    width: 260px;
+    height: 3rem;
+    margin-bottom: 0.8rem;
+
+}
+
+.story-icon {
+    position: absolute;
+    top: 0.5rem;
+    left: 1.5rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    border: solid 2px ;
+    border-color: #ee094e;
+    padding: 2px;
+}
+
+.borderless {
+    border: none;
+}
+
+.story-name {
+    position: absolute;
+    top: 0.6rem;
+    left: 5.5rem;
+}
+
+.story-name h4 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.story-name p {
+    font-size: 0.6rem;
+    color: darkgray;
+}
+
+.story-info a {
+    position: absolute;
+    right: -10px;
+    top: 1.2rem;
+    font-size: 0.7rem;
+}
+
+/* Copyright */
+.copyright {
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+    width: 293px;
+    height: 86px;
+}
+
+.copyright p {
+    color: darkgray;
+    font-size: 0.7rem;
+    line-height: 2;
 }
